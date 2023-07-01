@@ -1,0 +1,12 @@
+.dateRange {
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  /* transform: translateY(100%); */
+  transform: translate(-50%, 100%);
+  width: 100%;
+  z-index: 1;
+}
+.rdrDefinedRangesWrapper {
+  display: none;
+}

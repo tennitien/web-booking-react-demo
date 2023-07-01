@@ -1,0 +1,28 @@
+.section-hotelList__item {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  flex: 1;
+}
+
+.section-hotelList__text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  margin-top: 12px;
+}
+
+.section-hotelList__text .nameHotel {
+  color: #000;
+  font-size: 20px;
+}
+.section-hotelList__text .nameHotel:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.section-hotelList__text .rate {
+  color: #fff;
+  padding: 6px;
+  background-color: #003580;
+}

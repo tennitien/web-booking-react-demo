@@ -1,0 +1,47 @@
+#detail {
+  display: grid;
+  gap: 24px;
+  margin: 24px auto;
+}
+.detail-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  /* margin-bottom: 24px; */
+}
+.detail-name__address {
+  font-size: 14px;
+}
+.detail-name__distance {
+  color: blue;
+  font-weight: 700;
+}
+.detail-name__price {
+  color: green;
+  font-weight: 600;
+}
+.detail-photos {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: auto auto auto;
+  gap: 12px;
+}
+.detail-title {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 12px;
+}
+.detail-title__title {
+  margin-bottom: 24px;
+}
+.detail-title__price {
+  background: #ecf3ff;
+  padding: 18px;
+  width: 250px;
+  height: 250px;
+
+  display: grid;
+}
+.detail-title__price h4 {
+  color: #00000082;
+}

@@ -1,0 +1,39 @@
+.searchPopup {
+  padding: 12px;
+  background-color: #febb00;
+  border-radius: 12px;
+}
+.searchPopup-title {
+  color: #00000094;
+  margin-bottom: 12px;
+}
+/* #searchPopup .form-control { */
+.form-controlsPopUp .form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 18px;
+  font-weight: 700;
+}
+.form-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.input input {
+  width: 74px;
+}
+/* input[type='text'],
+input[type='date'],
+input[type='number'] { */
+.search-input {
+  padding: 8px;
+  font-size: 16px;
+}
+/* #searchPopup button { */
+.form-controlsPopUp button {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  width: 100%;
+}

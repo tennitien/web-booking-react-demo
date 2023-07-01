@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer li a {
+  color: blue;
+}
+.footer li a:hover {
+  color: #e67e22;
+}

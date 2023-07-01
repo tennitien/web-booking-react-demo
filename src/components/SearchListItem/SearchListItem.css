@@ -1,0 +1,64 @@
+.searchItem {
+  display: grid;
+  grid-template-columns: 1fr 2fr 0.75fr;
+  gap: 12px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 12px;
+
+  margin-bottom: 24px;
+}
+.searchItem-img img {
+  /* position: absolute; */
+  /* top: 0; */
+}
+.searchItem-info {
+  /* position: relative; */
+  flex: 1;
+}
+.searchItem-info > * {
+  margin-bottom: 10px;
+}
+.searchItem-info__name {
+  margin-bottom: 14px;
+  color: #0071c2;
+}
+.searchItem-info__tag {
+  display: inline-block;
+  background-color: green;
+  color: #fff;
+  padding: 4px;
+  border-radius: 4px;
+}
+.searchItem-info__cancel {
+  color: green;
+}
+/*  */
+.searchItem-rate {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.searchItem-rate__text {
+  display: flex;
+  justify-content: space-between;
+}
+.searchItem-rate__text .rate {
+  background-color: #004c83;
+  color: #fff;
+  padding: 4px;
+}
+/* rate_text */
+/* rate */
+.searchItem-rate__price {
+  text-align: right;
+}
+.searchItem-rate__price .price {
+  font-size: 36px;
+}
+.searchItem-rate__price .price-text {
+  color: #353535a5;
+}
+.searchItem-rate__price button {
+  width: 100%;
+}
