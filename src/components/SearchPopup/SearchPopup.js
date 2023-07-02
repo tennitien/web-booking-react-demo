@@ -64,7 +64,8 @@ export default function SearchPopup(props) {
           <input
             type='text'
             className='search-input'
-            value={dataHomePage.date}
+            value='10/04/2023'
+            // value={dataHomePage.date}
             onChange={dateChangeHandler}
           />
         </div>
